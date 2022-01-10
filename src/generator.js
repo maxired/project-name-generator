@@ -1,4 +1,17 @@
-const _ = require('lodash');
+const filter = require('lodash/filter');
+const merge = require('lodash/merge');
+const random = require('lodash/random');
+const sample = require('lodash/sample');
+const times = require('lodash/times');
+
+const _ = {
+  filter,
+  merge,
+  random,
+  sample, 
+  times
+}
+
 const nouns = require('./nouns');
 const adjectives = require('./adjectives');
 
